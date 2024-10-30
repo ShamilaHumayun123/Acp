@@ -1,0 +1,15 @@
+.shop-image {
+    height: 200px;         /* Set a fixed height for the images */
+    min-height: 200px;    /* Ensure minimum height */
+    object-fit: cover;     
+    width: 100%;          
+  }
+  
+  .card {
+    height: 100%; /* Ensures all cards take up the same space */
+  }
+  
+  .card-body {
+    padding: 1rem; /* Uniform padding for card body */
+  }
+  

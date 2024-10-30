@@ -1,0 +1,149 @@
+/* /* src/MeasurementSharing.css */
+/* .measurement-sharing {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .summary {
+    margin-top: 20px;
+    background-color: #eef;
+    padding: 10px;
+    border-radius: 4px;
+  } */ */
+  html, body {
+    height: 100%; /* Ensure the body takes the full height */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .measurement-sharing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full height of the viewport */
+    width: 100%; /* Full width */
+    margin: 0;
+    padding: 0; /* Remove padding */
+  }
+  
+  .image-header {
+    width: 100%; /* Full width for the image header */
+    position: relative;
+  }
+  
+  .image-header img {
+    width: 100%; /* Image covers full width */
+    height: 250px; /* Adjust height as desired */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center overlay */
+    color: red;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  .form-section {
+    width: 100%; /* Full width for the form section */
+    max-width: 1200px; /* Optional: set a max width for larger screens */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Space between image and form */
+  }
+  
+  .form-section table {
+    width: 100%; /* Table spans full width */
+    margin-top: 20px; /* Margin above table */
+  }
+  
+  .submit-button {
+    margin-top: 20px; /* Space above submit button */
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Button color */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049; /* Darker button color on hover */
+  }
+  
+  
+  
+  
+  

@@ -1,0 +1,171 @@
+/* 
+.feedback-page {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+.feedback-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.feedback-form button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #4cae4c;
+}
+
+.star-rating {
+  display: flex;
+  cursor: pointer;
+}
+
+.filled-star {
+  color: #ffcc00;
+  font-size: 24px;
+}
+
+.empty-star {
+  color: #e0e0e0;
+  font-size: 24px;
+}
+
+.feedback-list {
+  margin-top: 20px;
+}
+
+.feedback-item {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.star-display .filled-star {
+  color: #ffcc00;
+}
+
+ */
+  
+ .feedback-page {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+.feedback-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.feedback-form textarea {
+  resize: none; /* Prevent manual resizing */
+  min-height: 100px; /* Set a minimum height */
+  max-height: 200px; /* Optional: Set a maximum height */
+}
+
+.feedback-form button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #4cae4c;
+}
+
+.star-rating {
+  display: flex;
+  cursor: pointer;
+}
+
+.filled-star {
+  color: #ffcc00;
+  font-size: 24px;
+}
+
+.empty-star {
+  color: #e0e0e0;
+  font-size: 24px;
+}
+
+.feedback-list {
+  margin-top: 20px;
+}
+
+.feedback-table {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden; /* Ensure child elements don't overflow */
+}
+
+.feedback-item {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-bottom: 1px solid #ccc; /* Separates feedback items */
+}
+
+.feedback-item:last-child {
+  border-bottom: none; /* No border for the last item */
+}
+
+.feedback-item p {
+  margin: 5px 0; /* Reduce margin for tighter spacing */
+}
+
+.feedback-text {
+  white-space: pre-wrap; /* Preserve whitespace and wrap text */
+}
+
+.star-display .filled-star {
+  color: #ffcc00;
+  margin-right: 2px; /* Spacing between stars */
+}
+
+h2 {
+  text-align: center; /* Center align the section heading */
+}
+
+
+
+  
